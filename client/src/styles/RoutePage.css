@@ -1,0 +1,19 @@
+.route-page {
+    @apply py-4 flex flex-col md:flex-row flex-wrap justify-around gap-4 dark:bg-gray-800;
+}
+
+.route-page .article {
+    @apply dark:bg-gray-700 bg-gray-100 dark:text-gray-200 md:w-1/4 w-full lg:w-1/5 rounded-md md:text-lg px-4 flex flex-col justify-around;
+}
+
+.route-page .article .title {
+    @apply font-bold text-center;
+}
+
+.route-page .article .quick-content {
+    @apply text-justify;
+}
+
+.route-page .article a {
+    @apply italic hover:text-blue-600;
+}

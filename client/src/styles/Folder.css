@@ -1,0 +1,12 @@
+.folder {
+    @apply md:w-1/2 lg:w-1/4 w-full bg-gray-100 border-2 border-gray-500 flex flex-row justify-around
+    md:flex-col py-4 md:border-l-2 md:border-r-2 border-l-0 border-r-0 dark:bg-gray-800 dark:border-gray-900;
+}
+
+.folder .folder-title {
+    @apply capitalize font-bold md:text-xl dark:text-white w-2/3 md:ml-8 ml-4;
+}
+
+.folder .folder-link {
+    @apply block md:text-lg text-center bg-gray-300 text-black hover:bg-gray-400 dark:bg-gray-500 dark:hover:bg-gray-600 w-1/3 md:ml-8 mr-4 capitalize dark:text-gray-200 rounded-sm;
+}
